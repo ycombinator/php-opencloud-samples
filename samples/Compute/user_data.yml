@@ -1,0 +1,6 @@
+#cloud-config
+users:
+  - name: admin
+    shell: /bin/bash
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLBKi3czWfLcWHx/HSv4ySf2Ity9McaEXcy0MnreT45MH++2+XU6xoyymH7T0bNoZ/yceQxisDml8EbG9YB2ppqHjwZzG2LbJgnre9ZtB6Srok2IfmKQv24nVp7oHKU8nESd8jdTkojpXZhkj0X4sCYDa3QTACWlimzaOjNi4cCihKT/MUMXTPLuvVyP3m0IwwbT23BRPeLwla+tJaN8spBU41QqiU0WQsfJei0cnZxDlzqSeLptfdg+QxasT4ZGUc5jOJxvz3b27J62UeAR4BF8lTKxPLdPdYPGt/G2PhkbwkQxCpCU/BAx5molMeGBz/Me2c4njnx1XBn2sLabjJ
